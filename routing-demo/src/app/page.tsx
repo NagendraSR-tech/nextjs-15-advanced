@@ -5,11 +5,10 @@ export default function Home() {
     <>
       <h1>Welcome Next.js Home</h1>
       <Link href="/products">Products</Link>
-      <br />
       <Link href="/blog">Blog</Link>
-      <br />
       <Link href="/blog/first-post">First Post</Link>
-      <br />
+      <Link href="/articles/breaking-news-123?lang=en">Read in English</Link>
+      <Link href="/articles/breaking-news-123?lang=fr">Read in French</Link>
     </>
   );
 }
