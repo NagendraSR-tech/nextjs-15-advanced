@@ -5,5 +5,5 @@ export default async function AboutPage() {
   const theme = cookieStore.get("theme");
   console.log(theme);
   console.log("About Server component");
-  return <h1>About Page</h1>;
+  return <h1>About Page {new Date().toLocaleTimeString()}</h1>;
 }
