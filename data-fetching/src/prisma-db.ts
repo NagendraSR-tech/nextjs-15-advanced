@@ -18,6 +18,7 @@ const seedProducts = async () => {
 
 seedProducts();
 
+//for integrate search with Data fething
 export async function getProducts(query?: string) {
   await new Promise((resolve) => setTimeout(resolve, 1500));
   if (query) {
@@ -32,6 +33,7 @@ export async function getProducts(query?: string) {
   }
   return prisma.product.findMany();
 }
+//for integrate search with Data fething end 
 
 export async function getProduct(id: number) {
   await new Promise((resolve) => setTimeout(resolve, 1500));
