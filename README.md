@@ -14,10 +14,10 @@ Each sub-folder inside the repo represents a separate demo project, focusing on 
 - Authentication & Middleware  
 
 ## 📂 Projects Included  
-- `01-basic-routing` – Simple routing with App Router  
-- `02-data-fetching` – Using `fetch`, `getServerSideProps`, `getStaticProps`  
-- `03-api-routes` – Creating API endpoints in Next.js  
-- `04-auth-middleware` – Clerk/Auth.js integration with middleware  
-- `05-advanced-rendering` – Client vs Server rendering   
+- `01-basic-routing` – Simple routing with App Router 
+- `02-data-fetching` – Using `fetch`, `getServerSideProps`, `getStaticProps` 
+- `03-api-routes` – Creating API endpoints in Next.js 
+- `05-advanced-rendering` – Client vs Server rendering 
+- `04-middleware` – Clerk integration with middleware  
 
 --- 
